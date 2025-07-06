@@ -9,7 +9,7 @@ Note: Non-letter characters are not required, CASE insensitive
 def permutation_palindrome(string:str) -> bool:
     '''
     time complexity=O(n)
-    space complexity=
+    space complexity= O(N)
     '''
     string = string.lower().replace(' ','')
     odd_count = 0
@@ -27,4 +27,6 @@ def permutation_palindrome(string:str) -> bool:
     return True
 
 print(permutation_palindrome('tact coa'))
+
+#this problem can also be solved using Bit manipulation
 
